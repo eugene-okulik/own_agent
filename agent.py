@@ -8,6 +8,8 @@ from openai import OpenAI
 MODEL = "z-ai/glm-5.3-flash"
 # URL = "https://openrouter.ai/api/v1/chat/completions"
 URL = "https://openrouter.ai/api/v1"
+# URL = "https://api.mistral.ai/v1" - если мистраль
+# URL = "https://api.provod.ai/v1" - если provod
 TOKEN = "YOUR_OPENROUTER_API_KEY"
 
 client = OpenAI(base_url=URL, api_key=TOKEN)
